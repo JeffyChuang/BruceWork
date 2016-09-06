@@ -1,5 +1,5 @@
 body {
-	font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+	font-family: "Pacifico","Helvetica Neue", cursive, Helvetica, sans-serif;
 
 }
 header{
@@ -24,14 +24,21 @@ h1, h2, h3, h4, h5, h6, p {
 
 	
 }
+.footer-h1{
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
 .footer_image{
 	width: 100%;
 	margin-top: 20px;
 }
 
-.footer-text{
+.footer-h5{
+	margin-top: 20px;
+margin-bottom: 20px;
 padding-bottom:20px;
- padding-top:40px;
+ padding-top:20px;
 
 
 }
@@ -40,6 +47,12 @@ padding-bottom:20px;
 	padding-bottom:8px; 
 	padding-top:8px;
 }
+.icon-list1:hover {
+background-color:#0000;
+color:#7aa354;
+
+}
+
 
 /*所有footer*/
 
@@ -53,6 +66,10 @@ padding-bottom:20px;
 background-color:#7aa354;
 
 
+}
+.logo{
+height:50px; 
+width=:50px; 
 }
 /*所有navbar*/
 
@@ -134,7 +151,8 @@ color:white;
 }
 
 .gray-text1{
-margin-top: 410px;
+margin-left: -5px;
+margin-top: 400px;
 position: relative;
 z-index: 2;
     text-shadow: 3px 0px 8px #000;
@@ -185,6 +203,10 @@ background-size: cover;
 	background-position: center;
 	background-size: cover;
 }
+.parallax-window-image:hover{
+	width: 400px;
+	height: 400px;
+}
 .parallax-window-image01{
 	margin-left: 800px;
 	background-image: url(../image/pexels-photo-54296.jpeg);
@@ -223,6 +245,72 @@ background-size: cover;
 
 
 
+/*vagetable.html*/
+
+.cou2 {
+	margin-top: 20px;
+	margin-bottom: 70px;
+	background-image: url(../image/test-03.jpg);
+	width: 100%;
+	height: auto;
+	/*border: solid 1px #ccc;*/
+	background-size: cover;
+	background-position: 25% center ;
+
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+    color:white;
+}
+
+
+
+
+/*vagetable.html*/
+
+/*recipe.html*/
+
+.cou3 {
+	margin-top: 20px;
+	margin-bottom: 70px;
+	background-image: url(../image/kitchen.jpg);
+	width: 100%;
+	height: auto;
+	/*border: solid 1px #ccc;*/
+	background-size: cover;
+	background-position: 25% center ;
+
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+    color:white;
+}
+
+
+
+
+/*recipe.html*/
+
+/*community.html*/
+.cou4 {
+	margin-top: 20px;
+	margin-bottom: 70px;
+	background-image: url(../image/0405.jpg);
+	width: 100%;
+	height: auto;
+	/*border: solid 1px #ccc;*/
+	background-size: cover;
+	background-position: 25% center ;
+
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+    color:white;
+}
+
+
+
+
+
+
+/*community.html*/
+
+
+
 
 
 
@@ -240,7 +328,7 @@ background-size: cover;
 	/*height: 300px;*/
 	padding-top: 30px;
 	text-align: center;
-
+t
 	
 }
 
@@ -287,10 +375,29 @@ ul {
 
 
 
-/*member_center*/
+/*member_center.html*/
 .mc-poster{
-background-image: url(../image/11.jpg);
+	width: 100%;
+	height: auto;
+	padding-bottom: 
+padding-top: 50px;
+margin-top: -10px; 
+/*background-image: url(../image/wood_laser_04.jpg);*/
+background-position: center;
+background-size: cover;
 
+}
+.mc-text{
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+	color:#fff;
+}
+.mc-h1{
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+.about1{
+	text-align: center;
 
 }
 
@@ -298,6 +405,7 @@ background-image: url(../image/11.jpg);
 
 .cou1 {
 	margin-top: 20px;
+	margin-bottom: 70px;
 	background-image: url(../image/11.jpg);
 	width: 100%;
 	height: auto;
@@ -305,7 +413,7 @@ background-image: url(../image/11.jpg);
 	background-size: cover;
 	background-position: 25% center ;
 
-    text-shadow: 3px 0px 8px #000;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
     color:white;
 }
 .gray-area{
@@ -325,8 +433,27 @@ margin-top: 350px;
 position: relative;
 z-index: 10;
 }
-/*member_center*/
+/*member_center.html*/
 
+
+
+
+
+
+/*select_member.html*/
+
+.sm-text{
+	text-align: center;
+}
+.sm-parallax-window{
+
+  background: transparent;
+  padding: 0 0;
+  margin-top: 120px;
+  height:100%;
+
+}
+/*select_member.html*/
 
 
 
@@ -335,28 +462,20 @@ z-index: 10;
 
 
 /*login.html*/
+
+
+
+
 .big-checkbox {width: 30px; height: 30px;}
-
-.cou2 {
-	background-image: url(../image/040103.jpg);
-}
-
-.cou3 {
-	background-image: url(../image/040104.jpg);
-}
-
-.cou4 {
-	background-image: url(../image/040105.jpg);
-}
-
-.cou5 {
-	background-image: url(../image/040106.jpg);
-}
-
-.cou6 {
-	background-image: url(../image/040107.jpg);
+.login-from{
+	text-align: center;
 }
 /*login.html*/
+
+
+
+
+
 /* qa */
 .qa {
 	background-color: #eee;

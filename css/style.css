@@ -1,5 +1,5 @@
 body {
-	font-family: "Pacifico","Helvetica Neue", cursive, Helvetica, sans-serif;
+	font-family: "Pacifico","微軟正黑體","Helvetica Neue", cursive, Helvetica, sans-serif;
 
 }
 header{
@@ -10,19 +10,14 @@ h1{
 
 }
 
-h1, h2, h3, h4, h5, h6, p {
-	
-}
+
 
 /*所有footer*/
 .footer {
-
 	background-color: #7aa354;
 	color: white;
 	padding: 10px;
 	text-align: center;
-
-	
 }
 .footer-h1{
 margin-top: 20px;
@@ -230,7 +225,6 @@ background-size: cover;
 	background-image: url(../image/Rancho.jpg);
 	
 }
-
 /*cglohas.html*/
 
 
@@ -246,7 +240,6 @@ background-size: cover;
 
 
 /*vagetable.html*/
-
 .cou2 {
 	margin-top: 20px;
 	margin-bottom: 70px;
@@ -260,14 +253,11 @@ background-size: cover;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
     color:white;
 }
-
-
-
-
 /*vagetable.html*/
 
-/*recipe.html*/
 
+
+/*recipe.html*/
 .cou3 {
 	margin-top: 20px;
 	margin-bottom: 70px;
@@ -281,11 +271,9 @@ background-size: cover;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
     color:white;
 }
-
-
-
-
 /*recipe.html*/
+
+
 
 /*community.html*/
 .cou4 {
@@ -301,12 +289,6 @@ background-size: cover;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
     color:white;
 }
-
-
-
-
-
-
 /*community.html*/
 
 
@@ -314,6 +296,258 @@ background-size: cover;
 
 
 
+
+
+
+
+
+
+/*member_center.html*/
+.mc-poster{
+	width: 100%;
+	height: auto;
+	padding-bottom: 
+padding-top: 50px;
+margin-top: -10px; 
+/*background-image: url(../image/wood_laser_04.jpg);*/
+background-position: center;
+background-size: cover;
+
+}
+.mc-text{
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+	color:#fff;
+}
+.mc-h1{
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+.about1{
+	text-align: center;
+
+}
+.cou1 {
+	margin-top: 20px;
+	margin-bottom: 70px;
+	background-image: url(../image/11.jpg);
+	width: 100%;
+	height: auto;
+	/*border: solid 1px #ccc;*/
+	background-size: cover;
+	background-position: 25% center ;
+
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+    color:white;
+}
+.gray-area{
+	height: 100%;
+	width: 100%;
+	background-color: #666;
+	opacity: 0.2;
+	position: absolute;
+	z-index: 1;
+	top:0;
+	left: 0;
+
+}
+.gray-text{
+margin-bottom:350px;
+margin-top: 350px;
+position: relative;
+z-index: 10;
+}
+
+.mc-icon{
+height: 150px;
+width: 150px;
+background-size: cover;
+background-position: center;
+}
+.mc-icon1{
+background-image: url(../image/png/bellsprout.png);
+	
+}
+.mc-icon2{
+background-image: url(../image/png/caterpie.png);
+	
+}
+.mc-icon3{
+background-image: url(../image/png/charmander.png);
+	
+}
+.mc-icon4{
+background-image: url(../image/png/dratini.png);
+	
+}
+
+
+
+
+/*member_center.html*/
+
+
+
+
+
+
+/*select_member.html*/
+.sm-text{
+	text-align: center;
+}
+.sm-parallax-window{
+
+  background: transparent;
+  padding: 0 0;
+  margin-top: 120px;
+  height:100%;
+
+}
+.sm-icon{
+height: 150px;
+width: 150px;
+background-size: cover;
+background-position: center;
+}
+.sm-icon1{
+background-image: url(../image/png/eevee.png);
+	
+}
+.sm-icon2{
+background-image: url(../image/png/pikachu-2.png);
+	
+}
+.sm-icon3{
+background-image: url(../image/png/zubat.png);
+	
+}
+.sm-icon4{
+background-image: url(../image/png/venonat.png);
+	
+}
+.sm-icon5{
+background-image: url(../image/png/snorlax.png);
+	
+}
+
+.sm-icon-text{
+	color:#000;
+}
+
+
+
+/*select_member.html*/
+
+/*select_member_data.html*/
+
+
+.smd-icon{
+height: 150px;
+width: 150px;
+background-size: cover;
+background-position: center;
+}
+.smd-icon1{
+background-image: url(../image/png/rattata.png);
+	
+}
+.smd-icon2{
+background-image: url(../image/png/psyduck.png);
+	
+}
+.smd-icon3{
+background-image: url(../image/png/pidgey.png);
+	
+}
+.smd-icon4{
+background-image: url(../image/png/mankey.png);
+	
+}
+
+.smd-icon-text{
+	color:#000;
+}
+
+
+
+
+
+
+
+/*select_member_data.html*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*login.html*/
+.big-checkbox {width: 30px; height: 30px;}
+.login-from{
+	text-align: center;
+}
+.login-button{
+	width:100px;
+	height:50px;
+	}
+/*login.html*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* qa */
+.qa {
+	background-color: #eee;
+	padding-bottom: 20px;
+}
+.tab-content {
+	background-color: white;
+	height: 300px;
+	border: solid 1px #ddd;
+	border-top: 0;
+	padding: 20px;
+	text-align: justify;
+}
+
+/*sign*/
+.box {
+	border: solid 1px #ccc;
+	height: 300px;
+	margin: 20px;
+}
+
+.sign_image {
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.sign_image01 {
+	background-image: url(../../image/040101.jpg);
+}
 
 
 .info_row {
@@ -328,7 +562,7 @@ background-size: cover;
 	/*height: 300px;*/
 	padding-top: 30px;
 	text-align: center;
-t
+
 	
 }
 
@@ -370,143 +604,6 @@ ul {
 	opacity: 0.5;
 	cursor: pointer;
 }
-
-
-
-
-
-/*member_center.html*/
-.mc-poster{
-	width: 100%;
-	height: auto;
-	padding-bottom: 
-padding-top: 50px;
-margin-top: -10px; 
-/*background-image: url(../image/wood_laser_04.jpg);*/
-background-position: center;
-background-size: cover;
-
-}
-.mc-text{
-	text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
-	color:#fff;
-}
-.mc-h1{
-	text-align: center;
-	margin-top: 50px;
-	padding-top: 50px;
-}
-.about1{
-	text-align: center;
-
-}
-
-
-
-.cou1 {
-	margin-top: 20px;
-	margin-bottom: 70px;
-	background-image: url(../image/11.jpg);
-	width: 100%;
-	height: auto;
-	/*border: solid 1px #ccc;*/
-	background-size: cover;
-	background-position: 25% center ;
-
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
-    color:white;
-}
-.gray-area{
-	height: 100%;
-	width: 100%;
-	background-color: #666;
-	opacity: 0.2;
-	position: absolute;
-	z-index: 1;
-	top:0;
-	left: 0;
-
-}
-.gray-text{
-margin-bottom:350px;
-margin-top: 350px;
-position: relative;
-z-index: 10;
-}
-/*member_center.html*/
-
-
-
-
-
-
-/*select_member.html*/
-
-.sm-text{
-	text-align: center;
-}
-.sm-parallax-window{
-
-  background: transparent;
-  padding: 0 0;
-  margin-top: 120px;
-  height:100%;
-
-}
-/*select_member.html*/
-
-
-
-
-
-
-
-/*login.html*/
-
-
-
-
-.big-checkbox {width: 30px; height: 30px;}
-.login-from{
-	text-align: center;
-}
-/*login.html*/
-
-
-
-
-
-/* qa */
-.qa {
-	background-color: #eee;
-	padding-bottom: 20px;
-}
-.tab-content {
-	background-color: white;
-	height: 300px;
-	border: solid 1px #ddd;
-	border-top: 0;
-	padding: 20px;
-	text-align: justify;
-}
-
-/*sign*/
-.box {
-	border: solid 1px #ccc;
-	height: 300px;
-	margin: 20px;
-}
-
-.sign_image {
-	height: 200px;
-	background-size: cover;
-	background-position: center;
-}
-
-.sign_image01 {
-	background-image: url(../../image/040101.jpg);
-}
-
 
 
 

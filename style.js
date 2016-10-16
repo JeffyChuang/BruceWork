@@ -1,4 +1,9 @@
 $(document).ready(function(){
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.poster1-js',{ duration:1500,origin: 'bottom',scale:0.5});
+sr.reveal('.poster1-js-text1',{ duration:1000,origin: 'left',delay:500,scale:0.5});
+sr.reveal('.poster1-js-text2',{ duration:1000,origin: 'top',delay:1000,scale:0.5});
+
 	$('.hamber').click(function(){
 		if($('.navbar_1').css("left") == "-250px"){
 			$('.navbar_1').animate({
@@ -31,6 +36,8 @@ $(document).ready(function(){
 
 
 });
+
+
 
 
 

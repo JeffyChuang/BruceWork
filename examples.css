@@ -421,7 +421,7 @@ p {
 }
 
 .fa-hover:hover {
-    color: rgba(225, 225, 225, 0.6);
+    color: rgba(0, 0, 0, 0.3);
     cursor: pointer;
    
 

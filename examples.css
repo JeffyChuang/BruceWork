@@ -139,8 +139,8 @@ p {
     display: inline-block;
     margin: 10px;
     color: #000;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.5);
+/*    background: #fff;
+    background: rgba(255, 255, 255, 0.5);*/
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -148,7 +148,10 @@ p {
 #menu li.active {
     background: #666;
     background: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    color: #000;
+}
+#menu li.acvivial a{
+    color: #000;
 }
 
 #menu li a {
@@ -158,11 +161,14 @@ p {
 
 #menu li.active a:hover {
     color: #fff;
+    font-size: 30px;
 }
 
 #menu li:hover {
 	  color: #000;
     background: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    transition: 0.5s all;
 }
 #menu li:hover a {
 	  color: #000;
@@ -173,11 +179,10 @@ p {
 #menu li.active a {
     padding: 9px 18px;
     display: block;
+     color: #555;
 }
 
-#menu li.active a {
-    color: #fff;
-}
+
 
 #menu {
     position: relative;
@@ -421,7 +426,7 @@ p {
 }
 
 .fa-hover:hover {
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
    
 
@@ -430,15 +435,83 @@ p {
 	position: absolute;
 	text-align: center;
 	bottom: 20px;
-	animation: animated 1s linear infinite alternate;
+	animation: animatedd 1s linear infinite alternate;
 	z-index: 999;
 }
-@-webkit-keyframes animated{
+.fa-hover1{
+	position: absolute;
+	text-align: center;
+	animation: animated 1s linear infinite alternate;
+	z-index: 999;
+	
+}
+.fa-hover2{
+    position: absolute;
+    text-align: center;
+    animation: animated22 1s linear infinite alternate;
+    z-index: 999;
+    
+}
+.fa-hover2:hover{
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.fa-hover1-1{
+    position: absolute;
+    text-align: center;
+    
+    animation: animatedd1 1s linear infinite alternate;
+    z-index: 999;
+    
+}
+.fa-hover1-1:hover{
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+   
+}
+.fa-hover1:hover{
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+@-webkit-keyframes animated22{
+    from{
+        left:37.5%;top:5%;
+    }
+
+    to{
+ left:37.5%;top:3%;
+    }
+}
+@-webkit-keyframes animatedd{
 	from{
-		left:50%;top:88%;
+		left:50%;top:93%;
 	}
 	to{
-	left:50%;top:90%;
+	left:50%;top:95%;
+	}
+
+}
+
+@-webkit-keyframes animatedd1{
+    from{
+        left:50%;top:5%;
+    }
+        to{
+    left:50%;top:3%;
+    }
+
+
+
+}
+
+
+@-webkit-keyframes animated{
+	from{
+		left:37.5%;top:93%;
+	}
+	to{
+	left:37.5%;top:95%;
 	}
 
 }
@@ -498,10 +571,20 @@ p {
     margin: 0 auto 4px;
     display: block;
 }
+.i-span4 {
+    position: absolute;
+    margin: -28px auto 0px -17px;
+    text-align: center;
+    display: none;
+}
 .font-1{
 	text-align: center;
 }
 .back-2 a,h2{
 	color:#fff;
+	font-size: 22px;
+}
+.bbb a{
+		color:#fff;
 	font-size: 22px;
 }

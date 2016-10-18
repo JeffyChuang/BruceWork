@@ -80,7 +80,7 @@ h5,
 h6 {
     font-weight: normal;
     font-size: 100%;
-    margin: 0;
+    margin: 1% 0;
     padding: 0;
     color: #fff;
 }
@@ -593,6 +593,7 @@ p {
 .slide-h1{
 text-align: left;
 font-size:60px;
+ 
 
 }
 .slide-margin{
@@ -608,4 +609,32 @@ font-size:60px;
     background: none repeat scroll 0 0 #999999;
     margin-bottom: 2%;
     margin-top:1%;
+}
+.font-h2{
+    text-align: left;
+    font-size:40px;
+    margin-bottom: 2%;
+    font-family: 微軟正黑體;
+    color:orange;
+}
+.col{
+    padding-left: 0px;
+    text-align:left ;
+}
+.col-123{
+  
+   text-align:right ;
+}
+    
+.img-1{
+height:90%;
+ width:80%; 
+ border-radius: 20px; 
+ box-shadow:2px 2px 2px rgba(255,255,255,0.6),4px 4px 6px rgba(255,255,255,0.4),6px 6px 12px rgba(255,255,255,0.2);
+
+}
+.h3-org
+{
+    color:lightgreen;
+    
 }

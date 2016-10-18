@@ -22,9 +22,8 @@
         <div class="img2 img-circle"></div>
         <div class="font-1">
             <ul id="menu">
-                <div >
-                    <li class="acvivial HOME"
-                    data-menuanchor="firstPage"><a href="#firstPage"><h3 class="HOME"><strong>HOME</strong></h3></a></li>
+                <div>
+                    <li class="acvivial HOME" data-menuanchor="firstPage"><a href="#firstPage"><h3 class="HOME"><strong>HOME</strong></h3></a></li>
                 </div>
                 <div>
                     <li class="acvivial ABOUT" data-menuanchor="secondPage"><a href="#secondPage"><h3 class="ABOUT"><strong>ABOUT</strong></h3></a></li>
@@ -43,9 +42,9 @@
     </div>
     <div class="hamber poster1-js" onClick="hamberclick()">
         <div class="hamber1">
-            <span class="i-span1" ></span>
-            <span class="i-span2" ></span>
-            <span class="i-span3" ></span>
+            <span class="i-span1"></span>
+            <span class="i-span2"></span>
+            <span class="i-span3"></span>
             <span class="i-span4"><i class="fa fa-times fa-3x" aria-hidden="true"></i></span>
         </div>
     </div>
@@ -63,39 +62,50 @@
                             </div>
                         </div>
                     </div>
+
+                    
                     <div class="section" id="section1">
-                        <div class="slide">
-                            <h1>Simple Demo</h1></div>
+                        <div class="slide ">
+                            <div class="slide-margin">
+                                <h1 class="slide-h1">Simple Demo</h1>
+                            </div>
+                        </div>
                         <div class="slide active">
-                            <h1><strong>ABOUT ME</strong></h1>
-                            <div class="bbb">
-                                <a href="#firstPage"><i class="fa fa-angle-double-up fa-2x fa-hover2" aria-hidden="true"></i></a>
-                                <a href="#thirdPage"><i class="fa fa-angle-double-down fa-2x fa-hover1" aria-hidden="true"></i></a>
+                            <div class="slide-margin">
+                                <h1 class="slide-h1"><strong>ABOUT ME</strong></h1>
+                                <span class="i-span5"></span>
+                                <div class="bbb">
+                                    <a href="#firstPage"><i class="fa fa-angle-double-up fa-2x fa-hover2" aria-hidden="true"></i></a>
+                                    <a href="#thirdPage"><i class="fa fa-angle-double-down fa-2x fa-hover1" aria-hidden="true"></i></a>
+                                </div>
                             </div>
                         </div>
                         <div class="slide">
-                            <h1>RESUME</h1></div>
+                            <h1 class="slide-h1">RESUME</h1></div>
                         <div class="slide">
-                            <h1>And more text</h1></div>
+                            <h1 class="slide-h1">And more text</h1></div>
                     </div>
+
+
+
                     <div class="section" id="section2">
                         <h1>RESUME</h1>
-                          <div class="bbb">
+                        <div class="bbb">
                             <a href="#secondPage"><i class="fa fa-angle-double-up fa-2x fa-hover1-1 " aria-hidden="true"></i></a>
-                                <a href="#4thPage"><i class="fa fa-angle-double-down fa-2x fa-hover " aria-hidden="true"></i></a>
-                            </div>
+                            <a href="#4thPage"><i class="fa fa-angle-double-down fa-2x fa-hover " aria-hidden="true"></i></a>
                         </div>
+                    </div>
                     <div class="section" id="section3">
                         <h1>Just the simplest demo ever</h1>
-                                <div class="bbb">
-                                <a href="#thirdPage"><i class="fa fa-angle-double-up fa-2x fa-hover1-1 " aria-hidden="true"></i></a>
-                                <a href="#5thPage"><i class="fa fa-angle-double-down fa-2x fa-hover " aria-hidden="true"></i></a>
-                            </div>
+                        <div class="bbb">
+                            <a href="#thirdPage"><i class="fa fa-angle-double-up fa-2x fa-hover1-1 " aria-hidden="true"></i></a>
+                            <a href="#5thPage"><i class="fa fa-angle-double-down fa-2x fa-hover " aria-hidden="true"></i></a>
                         </div>
+                    </div>
                     <div class="section" id="section3">
-                     <div class="bbb">
-                                <a href="#4thPage"><i class="fa fa-angle-double-up fa-2x fa-hover1-1 " aria-hidden="true"></i></a>
-                                </div>
+                        <div class="bbb">
+                            <a href="#4thPage"><i class="fa fa-angle-double-up fa-2x fa-hover1-1 " aria-hidden="true"></i></a>
+                        </div>
                         <h1>operation cwal</h1></div>
                 </div>
             </div>
@@ -112,9 +122,18 @@
         $('#fullpage').fullpage({
             sectionsColor: ['#e5e5e5', '#666666', '#666666', '#666666', '#666666'],
             anchors: ['firstPage', 'secondPage', 'thirdPage', '4thPage', '5thPage'],
-            resize: true
+            resize: true,
+
 
         });
+
+
+
+
+
+
+
+
     });
     </script>
     <script type="text/javascript" src="style.js"></script>

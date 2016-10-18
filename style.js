@@ -78,14 +78,20 @@ $('.CONTACT').css({color:'#ffa500'});
 
 });
 
+// $('#fullpage').anchors({
+// 	firstPage:$('.HOME').css({color:'#ffa500'}),
+// 	secondPage:$('.ABOUT').css({color:'#ffa500'}),
+// 	thirdPage:$('.RESUME').css({color:'#ffa500'}),
+
+
+// });
 
 
 });
 
 
 function doFirst() {
-var Ham = document.getElementsByClassName('i-span1');
-Ham.css="display:none";
+//alert('welcome');
 }
 function hamberclick(){
 
